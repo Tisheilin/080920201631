@@ -1,0 +1,18 @@
+{
+    "name": "olya/test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Olya",
+            "email": "111@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    }
+}
